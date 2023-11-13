@@ -59,7 +59,6 @@ func main() {
 			}
 			fmt.Printf("%-*s : ", 8, name)
 			fmt.Printf("%-*s(%d bytes)|\n", 6, parts[0], bytes)
-			//fmt.Printf("%-*s|\n", maxLength, variable)
 		}
 		fmt.Printf("%-*s\n", maxLength, strings.Repeat("¯", maxLength+1))
 	}
